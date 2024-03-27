@@ -36,6 +36,9 @@
 .pt-30{
     padding-top: 30px;
 }
+.pt-106{
+    padding-top: 106px;
+}
 .pt-110{
     padding-top: 110px;
 }
@@ -77,6 +80,9 @@
 }
 /* ----------------------------------gap */
 /* ----------------------------------margin */
+.mt-22{
+    margin-top: 22px;
+}
 .mt-65{
     margin-top: 65px;
 }
@@ -171,6 +177,28 @@
 .opacity-8{
     opacity: 80%;
 
+}
+.address-box{
+    padding: 10px 28px;
+    border-radius: 42px;    
+    backdrop-filter: blur(10px) ;    
+    top: 3%;
+    left: 2%;
+    opacity: 0;
+}
+.Destinations-img:hover .address-box{
+    opacity: 1;
+}
+.Destinations-img{
+    border-radius: 13px;
+}
+.Destinations-img:hover img{
+    transform: scale(1.1);
+
+}
+.duration-300{
+    transition: all 300ms linear;
+    
 }
 
 
