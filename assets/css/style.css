@@ -70,6 +70,12 @@
 .pb-40{
     padding-bottom: 40px;
 }
+.pb-80{
+    padding-bottom: 80px;
+}
+.pb-96{
+    padding-bottom: 96px;
+}
 .pb-110{
     padding-bottom: 110px;
 }
@@ -255,6 +261,26 @@
 }
 .card-2{
     border-radius: 13px;
+}
+
+.slider-two .slick-dots li button:before {
+    height: 12px;
+    width: 28px;
+    background-color: #FAFAFA;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 21px;
+    font-size: 0;
+    opacity: 1;
+}
+
+.slider-two .slick-dots li.slick-active button:before {
+    width: 59px;
+    opacity: 1;
+    transform: translateX(-90%);
+    height: 12px;
+    background-color: #1219D2;
 }
 
 
