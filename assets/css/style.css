@@ -45,6 +45,9 @@
 .pt-110{
     padding-top: 110px;
 }
+.pt-130{
+    padding-top: 130px;
+}
 .pt-140{
     padding-top: 140px;
 }
@@ -60,6 +63,9 @@
 }
 .pb-110{
     padding-bottom: 110px;
+}
+.pb-130{
+    padding-bottom: 130px;
 }
 .pb-131{
     padding-bottom: 131px;
@@ -105,6 +111,9 @@
 /* ----------------------------------width */
 .max-w-160{
     max-width: 160px;
+}
+.max-w-406{
+    max-width: 406px;
 }
 .max-w-509{
     max-width: 509px;
@@ -183,7 +192,22 @@
 }
 
 /* ---------------------------------slider */
+/* ----------------------------------- */
 
+.rotate{
+    animation: rotate 6s linear infinite;
+}
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+.rotate-logo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+/* ----------------------------------- */
 
 
 
@@ -277,7 +301,9 @@
     transition: all 300ms linear;
     
 }
-
+.fifth-bg{
+    /* background-image: url(../images/webp/5.png); */
+}
 
 
 
