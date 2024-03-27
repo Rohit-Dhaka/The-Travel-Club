@@ -420,6 +420,11 @@
     /* background-image: url(../images/webp/5.png); */
 }
 
+.socal-icon:hover{
+    transform: translateY(-8px);
+    
+
+}
 
 
 
