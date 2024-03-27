@@ -247,6 +247,20 @@
 }
 
 /* ----------------------------------- */
+/* ---------------------------------slick-two */
+
+.body-card{
+    background: var(--card-body);
+    padding: 20px 20px 22px 24px;
+}
+.card-2{
+    border-radius: 13px;
+}
+
+
+/* ---------------------------------slick-two */
+
+
 
 
 
