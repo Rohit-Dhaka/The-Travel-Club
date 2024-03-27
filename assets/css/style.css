@@ -316,6 +316,7 @@
 .accordion-button:not(.collapsed)::after{
     background-image: url(../images/svg/up.svg);
     transform: rotate(180deg);
+    
 }
 .accordion-button:not(.collapsed) {
     box-shadow: none;
@@ -357,6 +358,30 @@
     right: 0;
     top: -40%;
     
+}
+.star2{
+    right: 0;
+    top: -13%;
+}
+.star3{
+    left: -1%;
+    top: -12%;
+}
+.star4{
+    right: 0;
+    bottom: 0;
+}
+.star5{
+    right: -1%;
+    top: 12%;
+}
+.star6{
+    left: -1%;
+    top: 50%;
+}
+.star7{
+    right: 0;
+    bottom: 0;
 }
 
 /* ---------------------------------ellipse */
