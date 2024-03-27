@@ -23,6 +23,9 @@
 }
 /* ----------------------------------font-family */
 /* ----------------------------------padding */
+.pt-18{
+    padding-top: 18px;
+}
 .pt-20{
     padding-top: 20px;
 }
@@ -30,6 +33,9 @@
     padding-top: 24px;
 
 } 
+.pt-26{
+    padding-top: 26px;
+}
 .pt-29{
     padding-top: 29px;
 }
@@ -38,6 +44,9 @@
 }
 .pt-50{
     padding-top: 50px;
+}
+.pt-54{
+    padding-top: 54px;
 }
 .pt-106{
     padding-top: 106px;
@@ -92,6 +101,12 @@
 }
 .gap-32{
     gap: 32px;
+}
+.gap-90{
+    gap: 90px;
+}
+.gap-99{
+    gap: 99px;
 }
 .gap-150{
     gap: 150px;
@@ -205,6 +220,30 @@
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+}
+.blue-box{
+    /* background: var(--dark-blue); */
+    background-color: #1219D220;
+    border-radius: 20px;
+    padding: 29px 50px 32px;
+}
+.opacity-8{
+    opacity: 80%;
+}
+.line-box::after{
+    content: '';
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #696CDF;
+    z-index: 0;
+    display: inline-block;
+    transition: all  300ms linear;
+}
+.line-box:hover::after{
+    width: 100%;
 }
 
 /* ----------------------------------- */
