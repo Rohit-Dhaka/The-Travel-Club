@@ -36,6 +36,9 @@
 .pt-30{
     padding-top: 30px;
 }
+.pt-50{
+    padding-top: 50px;
+}
 .pt-106{
     padding-top: 106px;
 }
@@ -55,13 +58,22 @@
 .pb-40{
     padding-bottom: 40px;
 }
+.pb-110{
+    padding-bottom: 110px;
+}
 .pb-131{
     padding-bottom: 131px;
+}
+.pb-160{
+    padding-bottom: 160px;
 }
 /* ----------------------------------padding */
 /* ----------------------------------gap */
 .gap-10{
     gap: 10px;
+}
+.gap-11{
+    gap: 11px;
 }
 .gap-12{
     gap: 12px;
@@ -103,9 +115,74 @@
 /* ----------------------------------width */
 
 
+/* ---------------------------------slider */
+.slider-card{
+    border-radius: 13px;
+}
+.card-contant{
+    background-color: var(--card-body);
+    padding: 16px 28px 21px 20px;
+}
 
 
+.off-box{
+    padding: 10px 28px;
+    border-radius: 42px;    
+    backdrop-filter: blur(90px) ;    
+    top: 3%;
+    left: 2%;    
+}
+.card-img:hover img{
+    transform: scale(1.1);
 
+}
+.slick-slider {
+    margin:0 -10px;
+}
+.slick-slide {
+    /* padding:10px; */
+    /* background-color:red; */
+    /* text-align:center; */
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.card-slider .slick-dots li button:before {
+    height: 12px;
+    width: 28px;
+    background-color: #FAFAFA;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 21px;
+    font-size: 0;
+    opacity: 1;
+}
+
+.card-slider .slick-dots li.slick-active button:before {
+    width: 59px;
+    opacity: 1;
+    transform: translateX(-90%);
+    height: 12px;
+    background-color: #1219D2;
+}
+/* .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 7px;
+    padding: 0;
+    cursor: pointer;
+} */
+.slick-dots {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+   
+}
+
+/* ---------------------------------slider */
 
 
 

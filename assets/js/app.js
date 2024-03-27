@@ -21,13 +21,14 @@
 
 
      // --------slider
-     $('.responsive').slick({      
+     $('.card-slider').slick({      
         prevArrow: ".pre-btn",
         nextArrow: ".next-btn",
         infinite: true,
-        dots: false,
+        dots: true,
         speed: 300,
-        slidesToShow: 1,
+        slidesToShow: 3,
+        autoplay:false,
         slidesToScroll: 1,
         responsive: [
           {
