@@ -32,8 +32,12 @@
     --light-blue:#4E52B1;
     --bg-section:#140D1B;
     --card-body:#140F40;
+    --footer-bg:#010101;
     
     
+}
+.footer-bg{
+    background-color: var(--footer-bg);
 }
 
 

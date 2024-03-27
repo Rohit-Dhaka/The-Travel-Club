@@ -42,6 +42,9 @@
 .pt-30{
     padding-top: 30px;
 }
+.pt-44{
+    padding-top: 44px;
+}
 .pt-50{
     padding-top: 50px;
 }
@@ -75,6 +78,9 @@
 }
 .pb-40{
     padding-bottom: 40px;
+}
+.pb-50{
+    padding-bottom: 50px;
 }
 .pb-80{
     padding-bottom: 80px;
@@ -384,8 +390,8 @@
 .bg-color{
     background-color: var(--bg-section);
 }
-.opacity-8{
-    opacity: 80%;
+.opacity-7{
+    opacity: 70%;
 
 }
 .address-box{
@@ -442,7 +448,7 @@
 }
 
 .underline:hover::after {
-    width: 100%;
+    width: 100%;    
 }
 /* ----------------------------underline */
 /* ----------------------------nav-bar */
