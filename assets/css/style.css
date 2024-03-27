@@ -45,8 +45,14 @@
 .pt-50{
     padding-top: 50px;
 }
+.pt-53{
+    padding-top: 53px;
+}
 .pt-54{
     padding-top: 54px;
+}
+.pt-80{
+    padding-top: 80px;
 }
 .pt-106{
     padding-top: 106px;
@@ -138,6 +144,12 @@
 }
 .max-w-509{
     max-width: 509px;
+}
+.max-w-561{
+    max-width: 561px;
+}
+.max-w-749{
+    max-width: 749px;
 }
 .max-w-1140{
     max-width: 1140px;
@@ -286,9 +298,27 @@
 
 /* ---------------------------------slick-two */
 
+/* ---------------------------------accordion */
+.accordion{
 
+    --bs-accordion-btn-focus-box-shadow:none;
+}
+.accordion-button::after{
+    background-image: url(../images/svg/down.svg);
 
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../images/svg/up.svg);
+    transform: rotate(180deg);
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+    
+    
+    
+}
 
+/* ---------------------------------accordion */
 
 
 
