@@ -177,6 +177,7 @@
     border-radius: 42px;
     backdrop-filter: blur(90px);
     top: 3%;
+    background-color: var(--card-title);
     left: 2%;
 }
 
@@ -664,6 +665,7 @@
     padding: 10px 28px;
     border-radius: 42px;
     backdrop-filter: blur(10px);
+    background-color: var(--card-title);
     top: 3%;
     left: 2%;
     opacity: 0;
@@ -684,6 +686,12 @@
 }
 .socal-icon:hover {
     transform: translateY(-8px);
+}
+.fifth-bg{
+    background-image: url(../images/webp/Property-1.webp);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
 }
 /* ----------------------------underline */
 .underline::after {
