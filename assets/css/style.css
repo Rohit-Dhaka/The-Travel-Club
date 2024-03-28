@@ -34,9 +34,7 @@
 .pt-20 {
     padding-top: 20px;
 }
-.pt-22{
-    padding-top: 22px ;
-}
+
 
 .pt-24 {
     padding-top: 24px;
@@ -812,7 +810,6 @@
         padding-top: 53px !important;
     }
 }
-
 @media (min-width: 768px) {
     .max-w-md-509 {
         max-width: 509px !important;
