@@ -4,7 +4,7 @@
 
 * {
     padding: 0;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
     margin: 0;
     list-style: none !important;
     text-decoration: none !important;
@@ -41,6 +41,9 @@
 }
 .pt-30{
     padding-top: 30px;
+}
+.pt-43{
+    padding-top: 43px;
 }
 .pt-44{
     padding-top: 44px;
@@ -100,6 +103,10 @@
 .pb-160{
     padding-bottom: 160px;
 }
+.pl-28{
+    padding-left: 28px;
+    padding-right: 28px;
+}
 /* ----------------------------------padding */
 /* ----------------------------------gap */
 .gap-10{
@@ -114,6 +121,9 @@
 .gap-20{
     gap: 20px;
 }
+.gap-28{
+    gap: 28px;
+}
 .gap-30{
     gap: 30px;
 }
@@ -125,6 +135,9 @@
 }
 .gap-99{
     gap: 99px;
+}
+.gap-129{
+    gap: 129px;
 }
 .gap-150{
     gap: 150px;
@@ -250,6 +263,7 @@
     background-color: #1219D220;
     border-radius: 20px;
     padding: 29px 50px 32px;
+    min-width: 582px;
 }
 .opacity-8{
     opacity: 80%;
@@ -257,19 +271,41 @@
 .line-box::after{
     content: '';
     width: 6px;
+    /* width: 100%; */
+
     height: 100%;
     position: absolute;
+    z-index: -1 !important;
     top: 0;
     left: 0;
-    background: #696CDF;
+    
     z-index: 0;
     display: inline-block;
     transition: all  300ms linear;
 }
 .line-box:hover::after{
     width: 100%;
-}
+} 
+.line-box-1::after{
+    background: #696CDF;
 
+}
+.line-box-2::after{
+    background: #5C368A;
+
+}
+.line-box-3::after{
+    background: #E76E9A;
+
+}
+.line-box-4::after{
+    background: #D1B35E;
+
+}
+.line-box-5::after{
+    background-color: #98DBB3;
+
+}
 /* ----------------------------------- */
 /* ---------------------------------slick-two */
 
@@ -360,28 +396,35 @@
     
 }
 .star2{
+    
     right: 0;
     top: -13%;
 }
 .star3{
     left: -1%;
+    
     top: -12%;
 }
 .star4{
+    
     right: 0;
     bottom: 0;
 }
 .star5{
+    
     right: -1%;
     top: 12%;
 }
 .star6{
     left: -1%;
     top: 50%;
+    
+
 }
 .star7{
     right: 0;
     bottom: 0;
+    
 }
 
 /* ---------------------------------ellipse */
