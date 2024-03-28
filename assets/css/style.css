@@ -35,6 +35,9 @@
 .pt-20 {
     padding-top: 20px;
 }
+.pt-22{
+    padding-top: 22px ;
+}
 
 .pt-24 {
     padding-top: 24px;
@@ -67,10 +70,10 @@
 
 
 
-
-.pt-140 {
-    padding-top: 140px;
+.pt-60{
+    padding-top: 60px;
 }
+
 
 .pb-10 {
     padding-bottom: 10px;
@@ -137,7 +140,7 @@
 /* ----------------------------------gap */
 /* ----------------------------------margin */
 .mt-22 {
-    margin-top: 22px;
+    margin-top: 22px ;
 }
 
 .mt-65 {
@@ -462,7 +465,195 @@
 }
 
 /* ---------------------------------ellipse */
+/* --------------------------------------preloder */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-blue);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
 
+.animation-loader{
+    animation: fade-in-down 3s ease infinite;
+}
+
+@keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+}
+
+
+/* ------------------- */
+.preloader-dot-loading {
+    display: block;
+    margin: 0px auto;
+    width: 97px;
+    .cssload-loading i {
+      width: 19px;
+      height: 19px;
+      display: inline-block;
+      border-radius: 50%;
+      background:white;
+      &:first-child {
+        opacity: 0;
+        animation: cssload-loading-ani2 0.58s linear infinite;
+        -o-animation: cssload-loading-ani2 0.58s linear infinite;
+        -ms-animation: cssload-loading-ani2 0.58s linear infinite;
+        -webkit-animation: cssload-loading-ani2 0.58s linear infinite;
+        -moz-animation: cssload-loading-ani2 0.58s linear infinite;
+        transform: translate(-19px);
+        -o-transform: translate(-19px);
+        -ms-transform: translate(-19px);
+        -webkit-transform: translate(-19px);
+        -moz-transform: translate(-19px);
+      }
+      &:nth-child(2), &:nth-child(3) {
+        animation: cssload-loading-ani3 0.58s linear infinite;
+        -o-animation: cssload-loading-ani3 0.58s linear infinite;
+        -ms-animation: cssload-loading-ani3 0.58s linear infinite;
+        -webkit-animation: cssload-loading-ani3 0.58s linear infinite;
+        -moz-animation: cssload-loading-ani3 0.58s linear infinite;
+      }
+      &:last-child {
+        animation: cssload-loading-ani1 0.58s linear infinite;
+        -o-animation: cssload-loading-ani1 0.58s linear infinite;
+        -ms-animation: cssload-loading-ani1 0.58s linear infinite;
+        -webkit-animation: cssload-loading-ani1 0.58s linear infinite;
+        -moz-animation: cssload-loading-ani1 0.58s linear infinite;
+      }
+    }
+  }
+  
+  @keyframes cssload-loading-ani1 {
+    100% {
+      transform: translate(39px);
+      opacity: 0;
+    }
+  }
+  
+  
+  @-o-keyframes cssload-loading-ani1 {
+    100% {
+      -o-transform: translate(39px);
+      opacity: 0;
+    }
+  }
+  
+  
+  @-ms-keyframes cssload-loading-ani1 {
+    100% {
+      -ms-transform: translate(39px);
+      opacity: 0;
+    }
+  }
+  
+  
+  @-webkit-keyframes cssload-loading-ani1 {
+    100% {
+      -webkit-transform: translate(39px);
+      opacity: 0;
+    }
+  }
+  
+  
+  @-moz-keyframes cssload-loading-ani1 {
+    100% {
+      -moz-transform: translate(39px);
+      opacity: 0;
+    }
+  }
+  
+  
+  @keyframes cssload-loading-ani2 {
+    100% {
+      transform: translate(19px);
+      opacity: 1;
+    }
+  }
+  
+  
+  @-o-keyframes cssload-loading-ani2 {
+    100% {
+      -o-transform: translate(19px);
+      opacity: 1;
+    }
+  }
+  
+  
+  @-ms-keyframes cssload-loading-ani2 {
+    100% {
+      -ms-transform: translate(19px);
+      opacity: 1;
+    }
+  }
+  
+  
+  @-webkit-keyframes cssload-loading-ani2 {
+    100% {
+      -webkit-transform: translate(19px);
+      opacity: 1;
+    }
+  }
+  
+  
+  @-moz-keyframes cssload-loading-ani2 {
+    100% {
+      -moz-transform: translate(19px);
+      opacity: 1;
+    }
+  }
+  
+  
+  @keyframes cssload-loading-ani3 {
+    100% {
+      transform: translate(19px);
+    }
+  }
+  
+  
+  @-o-keyframes cssload-loading-ani3 {
+    100% {
+      -o-transform: translate(19px);
+    }
+  }
+  
+  
+  @-ms-keyframes cssload-loading-ani3 {
+    100% {
+      -ms-transform: translate(19px);
+    }
+  }
+  
+  
+  @-webkit-keyframes cssload-loading-ani3 {
+    100% {
+      -webkit-transform: translate(19px);
+    }
+  }
+  
+  
+  @-moz-keyframes cssload-loading-ani3 {
+    100% {
+      -moz-transform: translate(19px);
+    }
+  }
+  
+
+/* --------------------------------------preloder */
 
 
 
@@ -644,8 +835,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        backdrop-filter: blur(60px);
-        /* background: black; */
+        backdrop-filter: blur(60px);        
         width: 100%;
         height: 100vh;
         gap: 32px;
@@ -705,6 +895,9 @@
 
     .hero-box {
         padding: 19px 40px 24px;
+    }
+    .pt-sm-100{
+        padding-top: 100px !important;
     }
 
     .pt-sm-60 {
@@ -800,6 +993,9 @@
 
     .pb-lg-160 {
         padding-bottom: 160px !important;
+    }
+    .pt-lg-140 {
+        padding-top: 140px !important;
     }
 }
 
