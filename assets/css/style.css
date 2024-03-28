@@ -523,6 +523,21 @@
     
 
 }
+.blue-line::after{
+    position: absolute;
+    left: 0;
+    content: '';
+    background: #1219D2;
+    width: 103%;
+    height: 21px;
+    left: -1%;
+    right: 0;
+    bottom: 21px;
+    z-index: -1 !important;
+    border-radius: 21px;
+    display: inline-block;
+
+}
 
 
 
