@@ -19,15 +19,15 @@
 </head>
 
 <body>
-    <header class="position-relative min-vh-100 bg-hero ">
+    <header class="position-relative min-vh-100 bg-hero d -none ">
         <div class="nav-bg">
             <div class="container max-w-1140 ">
                 <nav class="d-flex justify-content-between align-items-center pt-24 pb-24 ">
-                    <div class="logo d-flex gap-1 align-items-center">
+                    <div class="logo d-flex gap-1 align-items-center ">
                         <img src="./assets/images/svg/logo.svg" alt="logo-image ">
                         <span class="text-white font-Racing fw-normal line-height-35  fs-3xl ">The Travel Club</span>
                     </div>
-                    <div class="menulist d-flex  align-content-center align-items-center  z-2 gap-150">
+                    <div class="menulist d-flex  align-content-center align-items-center  z-2 gap-xl-150 gap-lg-110">
                         <ul class="d-flex p-0 m-0 gap-32">
                             <li><a href="#home"
                                     class="nav-link font-Poppins fw-medium  line-height-24  fs-lg text-white position-relative underline">Home</a>
@@ -56,13 +56,13 @@
                 </nav>
             </div>
         </div>
-        <div class="container max-w-1140 ">
-            <div class="pt-140 z-1" id="home">
-                <h1 class="font-Poppins text-white fw-normal line-height-75 text-center fs-7xl">Tokenized and
+        <div class="container max-w-1140 z-3 d-flex">
+            <div class="pt-140 z-3" id="home">
+                <h1 class="font-Poppins text-white fw-normal line-height-75 text-center fs-7xl m-0 ">Tokenized and
                     Decentralized <span class="blue-line position-relative  z-1">Travel Platform</span></h1>
-                <div class="hero-box mt-65 ">
+                <div class="hero-box mt-65 z-3">
                     <div class="d-flex justify-content-center ">
-                        <div class="d-flex gap-20 z-1">
+                        <div class="d-lg-flex gap-20 z-1 ">
                             <a href=""
                                 class="font-Poppins line-height-24 fs-lg  fw-medium text-white position-relative underline p-1">Stays</a>
                             <a href=""
@@ -79,13 +79,14 @@
                         </div>
                     </div>
                     <div class="row pt-29 ">
-                        <div class="col-6 pt-30 ">
-                            <div class="going-box d-flex gap-12 mb-10">
+                        <div class="col-md-6 col-12 pt-30 ">
+                            <div class="going-box d-flex gap-12 mb-10 z-3">
                                 <img src="./assets/images/svg/map.svg" alt="map-icon" class="cursor-pointer">
                                 <input type="text" placeholder="Going to"
                                     class="font-Poppins fw-light line-height-24 fs-lg  bg-transparent border-0 outline-none text-white">
                             </div>
                             <div class="d-flex gap-30">
+
                                 <div class="d-flex gap-10">
                                     <input type="checkbox" id="flight">
                                     <label for="flight"
@@ -97,9 +98,10 @@
                                     <label for="car" class="font-Poppins fw-light line-height-24 fs-lg text-white">Add a
                                         car</label>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="col-3 pt-30 ">
+                        <div class="col-md-3 col-sm-6 col-12  pt-30 ">
                             <div class="check-in-box d-flex  justify-content-between">
                                 <div class="d-flex gap-10">
                                     <img src="./assets/images/svg/calendar.svg" alt="calendar" class="cursor-pointer">
@@ -113,7 +115,7 @@
                                 <img src="./assets/images/svg/updown.svg" alt="updown" class="cursor-pointer">
                             </div>
                         </div>
-                        <div class="col-3 d-flex  flex-column align-items-end ">
+                        <div class="col-md-3 col-sm-6 col-12  d-flex  flex-column align-items-end ">
                             <select name="room" id="travelers"
                                 class="bg-transparent border-0 pb-10 text-white   font-Poppins fw-normal line-height-21  fs-md max-w-160">
                                 <option value="1room">1 room, 2 travelers</option>
@@ -143,20 +145,20 @@
 
 
     </header>
-    <section class="bg-color position-relative " id="about">
+    <section class="bg-color position-relative d -none " id="about">
         <div class="position-absolute star2">
             <img src="./assets/images/svg/stargroup.svg" alt="">
         </div>
-        <div class="position-absolute Ellipse295">
-            <img src="./assets/images/svg/Ellipse295.svg" alt="ellipse" class="">
+        <div class="position-absolute Ellipse295 z-1">
+            <img src="./assets/images/svg/Ellipse295.svg" alt="ellipse" class="z-0 w-100">
         </div>
         <div class="position-absolute Ellipse296">
-            <img src="./assets/images/svg/Ellipse296.svg" alt="ellipse" class="">
+            <img src="./assets/images/svg/Ellipse296.svg" alt="ellipse" class="w-100">
         </div>
-        <div class="container max-w-1140">
-            <div class="row align-items-center pt-110 pb-131">
-                <div class="col-6">
-                    <div class="max-w-509">
+        <div class="container max-w-1140 ">
+            <div class="row align-items-center pt-lg-110 pt-sm-60 pt-5 pb-lg-131 pb-sm-60 pb-5 flex-wrap-reverse">
+                <div class="col-md-6 col-12 z-1 pt-4 pt-md-0">
+                    <div class="max-w-md-509">
                         <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0">About Us</h2>
                         <p class="font-Poppins m-0 fw-normal line-height-24 text-white fs-lg opacity-8 pt-3">We are
                             building a web3 tokenized and decentralized travel platform. Our expertise is in search
@@ -170,7 +172,7 @@
                             rewards</button>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12 z-1 ">
                     <img src="./assets/images/webp/Group39609.png" alt="group" class="w-100">
                 </div>
 
@@ -178,7 +180,7 @@
 
         </div>
     </section>
-    <section class="bg-color position-relative" id="destinations">
+    <section class="bg-color position-relative d -none" id="destinations">
         <div class="position-absolute star3">
             <img src="./assets/images/svg/stargroup.svg" alt="">
         </div>
@@ -186,15 +188,15 @@
             <img src="./assets/images/svg/stargroup.svg" alt="">
         </div>
         <div class="position-absolute Ellipse297">
-            <img src="./assets/images/svg/Ellipse297.svg" alt="">
+            <img src="./assets/images/svg/Ellipse297.svg" alt="" class="w-100">
         </div>
 
         <div class="container max-w-1140">
             <div class="d-flex justify-content-center">
-                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0">Popular Destinations</h2>
+                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0 z-1 text-center">Popular Destinations</h2>
             </div>
-            <div class="row pt-106 pb-160">
-                <div class="col-4 ">
+            <div class="row pt-lg-106 pt-sm-60 pt-5 pb-lg-160 pb-sm-60 pb-5">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div class="position-relative Destinations-img duration-300 overflow-hidden">
                         <img src="./assets/images/webp/Frame1.png" alt="Frame1" class="w-100 duration-300">
                         <div class="address-box position-absolute  duration-300">
@@ -210,7 +212,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 ">
+                <div class="col-md-4 col-sm-6 col-12 mt-22 mt-md-0">
                     <div class="position-relative Destinations-img duration-300 overflow-hidden">
                         <img src="./assets/images/webp/Frame2.png" alt="Frame2" class="w-100 duration-300">
                         <div class="address-box position-absolute  duration-300">
@@ -226,8 +228,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 ">
-                    <div class="position-relative Destinations-img duration-300 overflow-hidden">
+                <div class="col-md-4 col-12  d-md-block d-sm-flex gap-3 gap-md-0">
+                    <div class="position-relative Destinations-img duration-300 overflow-hidden  mt-22 mt-md-0">
                         <img src="./assets/images/webp/Frame3.png" alt="Frame3" class="w-100 duration-300">
                         <div class="address-box position-absolute  duration-300">
                             <h5 class="m-0 font-Poppins line-height-24 fw-medium fs-lg text-white"> Cir. Shiloh, Hawaii
@@ -242,24 +244,21 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </section>
-    <section class="bg-color position-relative" id="partnership">
+    <section class="bg-color position-relative d -none" id="partnership">
         <div class="position-absolute Ellipse298 ">
-            <img src="./assets/images/svg/Ellipse298.svg" alt="">
+            <img src="./assets/images/svg/Ellipse298.svg" alt="" class="w-100">
         </div>
         <div class="position-absolute Ellipse299 ">
-            <img src="./assets/images/svg/Ellipse299.svg" alt="">
+            <img src="./assets/images/svg/Ellipse299.svg" alt="" class="w-100">
         </div>
-        <div class="container max-w-1140 pb-110">
+        <div class="container max-w-1140 pb-lg-110 pb-sm-60 pb-5">
             <div class="d-flex justify-content-center">
-                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0">Member Deals</h2>
+                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0 z-1">Member Deals</h2>
             </div>
-            <div class="card-slider pt-50 pb-40">
+            <div class="card-slider pt-sm-50 pt-4 pb-40">
                 <div class="slider-card overflow-hidden">
                     <div class="position-relative card-img duration-300 overflow-hidden">
                         <img src="./assets/images/webp/card1.png" alt="card1" class="w-100 duration-300">
@@ -407,20 +406,20 @@
             </div>
         </div>
     </section>
-    <section class="fifth-bg bg-color position-relative overflow-hidden" id="token">
+    <section class="fifth-bg bg-color position-relative d -none" id="token">
         <div class="position-absolute star5">
             <img src="./assets/images/svg/stargroup.svg" alt="">
         </div>
         <div class="container max-w-1140">
-            <div class="pt-130">
+            <div class="pt-lg-130 pt-sm-60 pt-5">
 
                 <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0 text-center">Tokenomics: Powering
                     Digital Economies</h2>
             </div>
-            <div class="row pt-50 pb-130">
-                <div class="col-5">
+            <div class="row pt-50 pb-lg-130 pb-sm-60 pb-5 d-flex align-items-center">
+                <div class="col-lg-5 col-12 d-flex justify-content-center">
                     <div class="position-relative max-w-406">
-                        <img src="./assets/images/webp/Group39610.png" alt="Group39610" class="rota te w-100 ">
+                        <img src="./assets/images/webp/Group39610.png" alt="Group39610" class="rot ate w-100 ">
                         <div class="logo d-flex gap-1 align-items-center position-absolute rotate-logo">
                             <img src="./assets/images/svg/logo.svg" alt="logo-image ">
                             <span class="text-white font-Racing fw-normal line-height-35  fs-3xl text-nowrap ">The
@@ -429,7 +428,7 @@
 
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-7 col-12 pt-sm-5 pt-4 pt-lg-0">
                     <div class="blue-box">
                         <h3 class="text-white m-0 font-DM-Sans fw-normal line-height-42 fs-5xl">Travel Club Metrics</h3>
                         <div class="pt-26 d-flex gap-99">
@@ -447,32 +446,32 @@
                                 supply:</h5>
                             <h5 class="text-white font-Poppins line-height-30 fs-xl fw-semibold m-0">307 909 912</h5>
                         </div>
-                        <div class="pt-54 d-flex gap-2 8">
-                            <div class="line-box position-relative pl-28 z-1 line-box-1">
+                        <div class="pt-54 d-flex flex-sm-nowrap flex-wrap">
+                            <div class="line-box position-relative pl-28 z-1 line-box-1 mb-sm-0 mb-4">
                                 <h6 class="font-Poppins fw-normal line-height-24 fs-lg m-0 text-white opacity-8 ">
                                     Farms/Launchpools</h6>
                                 <h5 class="font-DM-Sans fw-normal line-height-37 fs-4xl text-white m-0">80.7%</h5>
                             </div>
-                            <div class="line-box position-relative pl-28 z-1 line-box-2">
+                            <div class="line-box position-relative pl-28 z-1 line-box-2 mb-sm-0 mb-4">
                                 <h6
                                     class="font-Poppins fw-normal line-height-24 fs-lg m-0 text-white opacity-8 text-nowrap">
                                     Referral Program</h6>
                                 <h5 class="font-DM-Sans fw-normal line-height-37 fs-4xl text-white m-0">4.3%</h5>
                             </div>
-                            <div class="line-box position-relative pl-28 z-1 line-box-3">
+                            <div class="line-box position-relative pl-28 z-1 line-box-3 mb-4">
                                 <h6
                                     class="font-Poppins fw-normal line-height-24 fs-lg m-0 text-white opacity-8 text-nowrap">
                                     Team</h6>
                                 <h5 class="font-DM-Sans fw-normal line-height-37 fs-4xl text-white m-0">9%</h5>
                             </div>
                         </div>
-                        <div class="pt-43 d-flex gap-129">
-                            <div class="line-box position-relative pl-28 z-1 line-box-4">
+                        <div class="pt-sm-43  d-flex gap-sm-129  flex-sm-nowrap flex-wrap">
+                            <div class="line-box position-relative pl-28 z-1 line-box-4 mt-sm-0 mt-4">
                                 <h6 class="font-Poppins fw-normal line-height-24 fs-lg m-0 text-white opacity-8 ">
                                     SAFU</h6>
                                 <h5 class="font-DM-Sans fw-normal line-height-37 fs-4xl text-white m-0">1%</h5>
                             </div>
-                            <div class="line-box position-relative pl-28 z-1 line-box-5">
+                            <div class="line-box position-relative pl-28 z-1 line-box-5 mt-sm-0 mt-4">
                                 <h6
                                     class="font-Poppins fw-normal line-height-24 fs-lg m-0 text-white opacity-8 text-nowrap">
                                     Investing Fund</h6>
@@ -485,21 +484,21 @@
             </div>
         </div>
     </section>
-    <section class="bg-color position-relative" id="contact">
+    <section class="bg-color position-relative d -none" id="contact">
         <div class="position-absolute star6">
             <img src="./assets/images/svg/stargroup.svg" alt="">
         </div>
-        <div class="position-absolute Ellipse300">
-            <!-- <img src="./assets/images/svg/Ellipse300.svg" alt=""> -->
+        <div class="position-absolute Ellipse300 z-0">
+            <!-- <img src="./assets/images/svg/Ellipse300.svg" alt="" class="w-100"> -->
         </div>
         <div class="position-absolute Ellipse301">
-            <img src="./assets/images/svg/Ellipse301.svg" alt="">
+            <!-- <img src="./assets/images/svg/Ellipse301.svg" alt="" class="w-100"> -->
         </div>
-        <div class="container max-w-1140 pb-80">
-            <div class="pt-54">
-                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0 text-center">Meet Our Team</h2>
+        <div class="container max-w-1140 pb-lg-80 pb-sm-60 pb-5">
+            <div class="pt-54 d-flex justify-content-center z-1">
+                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0 text-center ">Meet Our Team</h2>
             </div>
-            <div class="slider-two pt-50 pb-96">
+            <div class="slider-two pt-50 pb-lg-96 pb-sm-60 pb-5">
                 <div class="card-2 overflow-hidden">
                     <img src="./assets/images/webp/card-21.png" alt="card-21" class="w-100">
                     <div class="body-card">
@@ -554,21 +553,21 @@
 
         </div>
     </section>
-    <section class="bg-color position-relative " id="faq">
+    <section class="bg-color position-relative  d -none" id="faq">
         <div class="position-absolute star7">
             <img src="./assets/images/svg/stargroup.svg" alt="">
         </div>
-        <div class="Ellipse302 position-absolute">
+        <div class="Ellipse302 position-absolute z-0">
             <img src="./assets/images/svg/Ellipse302.svg" alt="">
         </div>
-        <div class="container max-w-1140">
-            <div class="pt-80">
-                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0 text-center">Frequently Asked
+        <div class="container max-w-1140 ">
+            <div class="pt-lg-80 pt-sm-60 pt-5 z-1 d-flex justify-content-center">
+                <h2 class="text-white font-DM-Sans fw-normal line-height-56 fs-6xl m-0 text-center ">Frequently Asked
                     Questions</h2>
             </div>
-            <div class="max-w-749 mx-auto pt-53 pb-160">
+            <div class="max-w-749 mx-auto pt-sm-53 pt-4 pb-lg-160 pb-sm-60 pb-5">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item bg-transparent">
+                    <div class="accordion-item bg-transparent ">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button
                                 class="accordion-button collapsed font-DM-Sans fw-normal line-height-32 fs-xl text-white bg-transparent py-3 px-0"
@@ -652,11 +651,11 @@
 
         </div>
     </section>
-    <footer class="footer-bg ">
+    <footer class="footer-bg d -none">
 
         <div class="container max-w-1140">
             <div class="row pt-44 pb-50">
-                <div class="col-3">
+                <div class="col-lg-3 col-12">
                     <div class="logo d-flex gap-1 align-items-center">
                         <img src="./assets/images/svg/logo.svg" alt="logo-image ">
                         <span class="text-white font-Racing fw-normal line-height-35  fs-3xl ">The Travel Club</span>
@@ -664,7 +663,7 @@
                     <p class="m-0 opacity-8 text-white pt-26 font-Poppins fw-normal line-height-25 fs-lg">At congue
                         consectetur pharetra morbi. Amet blandit vestibulum feugiat tempus urna laoreet </p>
                 </div>
-                <div class="col-2 d-flex justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12 mt-4 mt-lg-0  d-lg-flex justify-content-center z-1">
                     <ul class="d-flex gap-3 flex-column m-0 p-0">
                         <li class="font-Poppins fw-normal line-height-25 text-white fs-lg">Company</li>
                         <li><a href="#about"
@@ -686,7 +685,7 @@
                     </ul>
 
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 mt-4 mt-lg-0  z-1">
                     <h6 class="font-Poppins fw-normal line-height-25 text-white fs-lg m-0">Company</h6>
                     <address class="opacity-8 text-white font-Poppins fw-normal line-height-25 fs-lg m-0 pt-18 pb-3">
                         4517 Washington Ave. Manchester, Kentucky 39495</address>
@@ -695,7 +694,7 @@
                     <a href="tel:+1234567890" class="text-white opacity-8 fw-normal line-height-25 fs-lg ">+123 456
                         7890</a>
                 </div>
-                <div class="col-2 d-flex justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12 mt-4 mt-lg-0 d-lg-flex justify-content-center z-1">
                     <ul class="d-flex gap-3 flex-column m-0 p-0">
                         <li class="font-Poppins fw-normal line-height-25 text-white fs-lg">Quick Links</li>
                         <li><a href="#home"
@@ -717,7 +716,7 @@
                     </ul>
 
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12 mt-4 mt-lg-0 z-1">
                     <div class="d-flex flex-column">
                         <h6 class="font-Poppins fw-normal line-height-25 text-white fs-lg m-0">Social Share</h6>
                         <div class="d-flex gap-32 pt-18">
