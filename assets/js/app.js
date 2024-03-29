@@ -19,9 +19,9 @@ $('.card-slider').slick({
   nextArrow: ".next-btn",
   infinite: true,
   dots: true,
-  speed: 300,
+  speed: 200,
   slidesToShow: 3,
-  autoplay: false,
+  autoplay: true,
   slidesToScroll: 1,
   responsive: [
     {
@@ -65,7 +65,7 @@ $('.slider-two').slick({
   dots: true,
   speed: 300,
   slidesToShow: 3,
-  autoplay: false,
+  autoplay: true,
   slidesToScroll: 1,
   responsive: [
     {
@@ -124,6 +124,6 @@ document.addEventListener("DOMContentLoaded", function () {
       let loadingOverlay = document.getElementById("loadingOverlay");
       loadingOverlay.style.display = "none";
       document.querySelector("body").classList.remove("overflow_hidden");
-    }, 3000);
+    }, 1000);
   });
 });
