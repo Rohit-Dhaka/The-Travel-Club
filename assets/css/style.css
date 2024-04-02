@@ -354,10 +354,10 @@
     background-image: url(../images/svg/down.svg);
 }
 
-.accordion-button:not(.collapsed)::after {
-    background-image: url(../images/svg/up.svg);
-    transform: rotate(180deg);
+.accordion-button:not(.collapsed)::after {        
+    background-image: url(../images/svg/down.svg);
 }
+
 
 .accordion-button:not(.collapsed) {
     box-shadow: none;
