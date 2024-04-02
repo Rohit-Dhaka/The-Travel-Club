@@ -358,7 +358,6 @@
     background-image: url(../images/svg/down.svg);
 }
 
-
 .accordion-button:not(.collapsed) {
     box-shadow: none;
 }
@@ -701,6 +700,10 @@
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: cover;
+}
+.liner-box{
+    background: linear-gradient(180deg, var(--bg-section) 24.34%, rgba(20, 15, 34, 0) 93.95%);        
+    height: 200px;    
 }
 /* ----------------------------underline */
 .underline::after {
